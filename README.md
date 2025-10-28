@@ -24,30 +24,31 @@ This project allows users to manage and track their daily tasks efficiently thro
 **Task Tracker** helps users organize and track their work progress.  
 It demonstrates backend development best practices, including:
 
-- REST API design  
-- Token-based authentication  
-- Database schema management with Drizzle  
-- Typed database queries using TypeScript  
-- Robust and clean architecture  
+- REST API design
+- Token-based authentication
+- Database schema management with Drizzle
+- Typed database queries using TypeScript
+- Robust and clean architecture
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
-|-------|-------------|
-| Runtime | Node.js |
-| Framework | Express.js |
-| Database | PostgreSQL |
-| ORM | Drizzle ORM |
-| Authentication | JWT (jsonwebtoken) |
-| Password Hashing | bcryptjs |
-| Config | dotenv |
-| Language | TypeScript |
+| Layer            | Technology         |
+| ---------------- | ------------------ |
+| Runtime          | Node.js            |
+| Framework        | Express.js         |
+| Database         | PostgreSQL         |
+| ORM              | Drizzle ORM        |
+| Authentication   | JWT (jsonwebtoken) |
+| Password Hashing | bcryptjs           |
+| Config           | dotenv             |
+| Language         | TypeScript         |
 
 ---
 
 ## 📁 Project Structure
+
 ```
 project-root/
 ├── src/
@@ -86,22 +87,38 @@ project-root/
 
 ## ⚙️ Setup & Installation
 
-
 1. **Clone the repository**
+
    ```bash
     git clone https://github.com/<your-username>/task-tracker.git
     cd task-tracker
 
+   ```
+
 2. **Install dependencies**
+
    ```bash
     npm install
 
+   ```
+
 3. **Set up environment variables**
+
    ```bash
     PORT=5000
     DATABASE_URL=postgres://postgres:password@localhost:5432/tasktracker
     JWT_SECRET=your_jwt_secret
 
+   ```
+
 4. **Run database migrations**
- ```bash
+
+   ```bash
    npm run db:push
+   ```
+
+5. **Run th server**
+
+   ```bash
+   npm run db:push
+   ```
